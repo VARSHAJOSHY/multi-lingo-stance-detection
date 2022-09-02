@@ -33,14 +33,16 @@ All four datasets have been annotated using the same guidelines proposed in Moha
 
 ## Software and Tools
 
-* SVM [42], LR [43], TF-IDF vectorizer [44] implementation in Python's Scikit-Learn library
+* SVM, LR, TF-IDF vectorizer  implementation in Python's Scikit-Learn library
 * Huggingface pretrained BERT, M-BERT, XLM, XLM-RoBERTa (pre-cased version) used to fine tune on dataset
-* Multilingual Universal Sentence Encoder [36] from tensorflow-hub
-* Visualization libraries – Matplotlib[45] and Seaborn[46]
+* Multilingual Universal Sentence Encoder from tensorflow-hub
+* Visualization libraries – Matplotlib and Seaborn
 
 ## Setup
 
 * Download the folders in Colab/Colab Pro
-* Run main.ipynb file (make necessary changes)
+* Run main.ipynb file (make necessary changes according to your requirement)
+* Run balanced_label.ipynb for uniformly distributing labels/stances across training set
+* Run balanced_lang.ipynb for uniformly distributing languages across training set
 
 
